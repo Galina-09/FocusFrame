@@ -4,7 +4,8 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
-   define: {
+  base: '/FocusFrame/',
+  define: {
     global: {},
   },
   root: 'src',

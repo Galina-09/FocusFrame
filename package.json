@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-besttim1/",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "vite": "^4.0.5",
-    "glob": "^8.1.0"
+    "gh-pages": "^6.3.0",
+    "glob": "^8.1.0",
+    "vite": "^4.0.5"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Zajcev <zajcev@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
