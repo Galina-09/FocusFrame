@@ -1,0 +1,232 @@
+.footer {
+  background-image: url('/img/footer/footer-mob.png');
+  background-size: contain;
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+@media (min-resolution: 192dpi) {
+  .footer {
+    background-image: url('/img/footer/footer-mob@2x.png');
+    background-size: contain;
+  }
+}
+
+.footer-container {
+  font-size: 14px;
+}
+
+.footer-box {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  fill: var(--color-white);
+  flex-shrink: 0;
+  margin-bottom: 16px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+  font-style: normal;
+}
+
+.ul-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts-tel {
+  color: inherit;
+}
+
+.contacts-item p {
+  font-size: 14px;
+  line-height: 1.285;
+}
+
+.footer-block {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.footer-social > li:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer-nav > li:not(:last-child) {
+  margin-bottom: 14px;
+}
+.social-link,
+.footer-nav-link {
+  color: inherit;
+  line-height: 1.285;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover {
+  color: var(--color-light);
+}
+
+.footer-nav-link:hover {
+  color: var(--color-light);
+}
+.feedback-form {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-input {
+  max-width: 267px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 20px 5px 20px 18px;
+  font-size: 16px;
+  line-height: 1.25;
+  border: none;
+  flex-grow: 1;
+}
+
+.footer-btn {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--color-fill);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.2;
+  border: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background: var(--color-light);
+  color: var(--black, #121212);
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url('/img/footer/footer-tab.png');
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .footer-box {
+    display: flex;
+    margin-bottom: 74px;
+  }
+
+  .footer-logo {
+    width: 123px;
+    height: 16px;
+    margin-bottom: 25px;
+  }
+  .contacts {
+    width: 142px;
+    margin-bottom: 0;
+    margin-right: 58px;
+  }
+  .ul-contacts {
+    gap: 10px;
+  }
+
+  .footer-block {
+    gap: 25px;
+    margin-right: 59px;
+    margin-bottom: 0;
+  }
+
+  .footer-input {
+    width: 178px;
+    height: 60px;
+  }
+
+  .footer-text {
+    gap: 399px;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.285;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .footer {
+    background-image: url('/img/footer/footer-tab@2x.png');
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    background-image: url('/img/footer/footer-desc.png');
+    background-size: contain;
+  }
+
+  .footer-box {
+    margin-bottom: 50px;
+  }
+
+  .contacts {
+    margin-right: 285px;
+  }
+  .footer-block {
+    gap: 50px;
+    margin-right: 137px;
+  }
+
+  .footer-input {
+    width: 216px;
+    height: 60px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1280px) {
+  .footer {
+    background-image: url('/img/footer/footer-desc@2x.png');
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-image: url('/img/footer/footer-desc.png');
+    background-size: contain;
+  }
+  .contacts {
+    margin-right: 341px;
+  }
+
+  .footer-block {
+    gap: 100px;
+    margin-right: 193px;
+  }
+
+  .footer-input {
+    width: 216px;
+    height: 60px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1440px) {
+  .footer {
+    background-image: url('/img/footer/footer-desc@2x.png');
+    background-size: contain;
+  }
+}
